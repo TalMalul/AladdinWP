@@ -109,16 +109,32 @@
 
 <section id="contact" class="section">
   <h2>contact me</h2>
-  <form action="mailto:talmalu@post.bgu.ac.il" method="post" enctype="text/plain">
+  <!-- <form action="mailto:talmalu@post.bgu.ac.il" method="post" enctype="text/plain">
     Name:<br>
     <input type="text" name="name"><br>
     E-mail:<br>
-    <input type="text" name="mail"><br>
+    <input type="email" name="mail"><br>
     Comment:<br>
     <input type="text" name="comment" size="50"><br><br>
     <input type="submit" value="Send">
     <input type="reset" value="Reset">
-    </form>
+  </form> -->
+
+  <form action="https://formspree.io/talmalu@post.bgu.ac.il" method="POST">
+    Name:
+    <input type="text" name="name">
+    <br>
+    Email:
+    <input type="email" name="_replyto">
+    <br>
+    Message:
+    <br>
+    <textarea trpe="text" name="message"></textarea>
+    <br>
+    <input type="submit" value="Send">
+  </form>
+
+
 </section>
 
 
