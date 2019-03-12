@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
+</head>
+<body>
+<nav id="menu">
+  <li><a href="#about">About Me</a></li>
+  <li><a href="#photos">My Photos</a></li>
+  <li><a href="#playlist">My Playlist</a></li>
+  <li><a href="#like">Like</a></li>
+  <li><a href="#qrcoder">QR code</a></li>
+  <li><a href="#spa">Q&A</a></li>
+  <li><a href="#contact">Contact Me</a></li>
+</nav>
+
+<div class="x1">
+      <div class="cloud"></div>
+</div>
+<div class="x2">
+  <div class="cloud"></div>
+</div>
+<div class="x3">
+  <div class="cloud"></div>
+</div>
+<div class="x4">
+  <div class="cloud"></div>
+</div>
+<div class="x5">
+  <div class="cloud"></div>
+</div>
+<div class="x6">
+  <div class="cloud"></div>
+</div>
+<div class="x7">
+  <div class="cloud"></div>
+</div>
+<div class="x8">
+  <div class="cloud"></div>
+</div>
+
+
+<div class="header">
+  <img id="Logo" src="./img/aladdin-520fa4bcc0868.png"/>
+</div>
+
+<section id="about" class="section">
+
+<h2>about me</h2>
+<img src="./img/Aladdin_Disney_pose.png"/>
+<p>
+  Hey,
+  <br>
+  <br>
+  My name is Aladding sun of Cassim and im from Agrabah.
+  My best friend is Abu, hes a monkey and the love of my life is Princess Jasmine.
+</p>
+</section>
+
+<section id="photos" class="section">
+<h2>my photos</h2>
+<div class="gallery">
+    <div class="photo">
+      <img src="./img/Al_Jasmine_Abu_Genie_MC.png"/>
+      <span>#Vacation #Fun</span>
+    </div>
+    <div class="photo">
+        <img src="./img/MC_Jasmine_Genie.png"/>
+        <span>Me and my pals</span>
+    </div>
+    <div class="photo">
+      <img src="./img/Ali_Jasmine.png"/>
+      <span>&lt3</span>
+    </div>
+    <div class="photo">
+      <img src="./img/Ali_Jasmine_2.gif"/>
+      <span>In a trip</span>
+    </div>
+    <div class="photo">
+      <img src="./img/Fun.png"/>
+      <span>On the magic carpet train!</span>
+    </div>
+    <div class="photo">
+        <img src="./img/agrabah.jpg"/>
+        <span>Agrabah!</span>
+    </div>
+</div>
+</section>
+
+<section id="playlist" class="section">
+<h2>my playlist</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hZ1Rb9hC4JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+give me a like
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+scan my code
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+ans
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+contact me
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
